@@ -18,3 +18,8 @@ Route::get('/laravel', function () {
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/mesProjets', function () {
+    return view('MesProjets.index');
+});
+
