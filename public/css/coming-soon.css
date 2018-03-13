@@ -20,7 +20,7 @@ body {
   font-weight: 300;
 }
 
-.overlay {
+.overlay, .overlayFenetre {
   position: absolute;
   height: 100%;
   min-height: 35rem;
@@ -29,11 +29,12 @@ body {
   opacity: 0.75;
   z-index: -1;
 }
-/*
-.overlay .overlayCarre {
-  margin-left: 40%;
-  background-color: blue;
-}*/
+
+.overlayFenetre {
+margin-left: 40%; 
+margin-right: 15%; 
+margin-top: 1.5%;
+}
 
 @media (min-width: 768px) {
   .overlay {
@@ -184,4 +185,40 @@ body {
 
 .input {
   font-weight: 300 !important;
+}
+
+#panel1, #flip1 {
+    padding: 5px;
+    border: solid 1px #c3c3c3;
+}
+#panel1 {
+    padding: 10px;
+    display: none;
+}
+
+#panel2, #flip2 {
+    padding: 5px;
+    border: solid 1px #c3c3c3;
+}
+#panel2 {
+    padding: 10px;
+    display: none;
+}
+
+#panel3, #flip3 {
+    padding: 5px;
+    border: solid 1px #c3c3c3;
+}
+#panel3 {
+    padding: 10px;
+    display: none;
+}
+
+#panel4, #flip4 {
+    padding: 5px;
+    border: solid 1px #c3c3c3;
+}
+#panel4 {
+    padding: 10px;
+    display: none;
 }

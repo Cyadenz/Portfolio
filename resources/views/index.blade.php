@@ -28,7 +28,26 @@
 
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
 
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
   </head>
 
   <body id="page-top">
@@ -226,6 +245,10 @@
             </a>
           </div>
         </div>
+
+        <div id="flip">Click to slide the panel down or up</div>
+        <div id="panel">Hello world!</div>
+
       </div>
     </section>
 
@@ -323,6 +346,31 @@
         </div>
       </div>
     </div>
+    
+    <!-- Modal test -->
+<div class="container">
+  <h2>Large Modal</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body" style="max-height: 800px;">
+          <p>This is a large modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -336,6 +384,29 @@
 
     <!-- Custom scripts for this template -->
     <script src="{{ asset('js/creative.min.js') }}" type="text/javascript"></script>
+
+    <script> 
+      $(document).ready(function(){
+          $("#flip").click(function(){
+              $("#panel").slideToggle("slow");
+          });
+      });
+    </script>
+    <style> 
+      #panel, #flip {
+          padding: 5px;
+          text-align: center;
+          background-color: #e5eecc;
+          border: solid 1px #c3c3c3;
+          background-color: white;
+      }
+
+      #panel {
+          padding: 50px;
+          display: none;
+          background-color: white;
+      }
+    </style>
 
   </body>
 
