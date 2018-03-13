@@ -23,3 +23,8 @@ Route::get('/mesProjets', function () {
     return view('MesProjets.index');
 });
 
+Route::get('/solitaire', function () {
+    return view('MesProjets.TP.solitaire');
+});
+
+

@@ -34,7 +34,8 @@
                     margin-right: 15%; 
                     margin-top: 1.5%; 
                     margin-bottom: : 1.5%;
-                    background-color: blue;">
+                    /*background-color: blue;*/
+                    ">
 
              @yield('content')
 
@@ -51,10 +52,11 @@
               <h1 class="mb-3">Mes projets</h1>
               <p class="mb-5">Voici l'arborescence de mes projets :
                 <ul>
+                  <li><a href="/mesProjets">Mes projets</a></li>
                   <li id="flip1">TP
                     <ul>           
                       <div id="panel1">
-                        <li><a href="/">Visit W3Schools</a></li>
+                        <li><a href="/mesProjets/TP/solitaire">Solitaire</a></li>
                       </div>
                     </ul>
                   </li>

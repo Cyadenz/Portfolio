@@ -35,7 +35,6 @@ html{height:100%}h1,h2,h3,h4,h5,h6{font-family:Merriweather;font-weight:700}body
     padding: 10px;
     display: none;
 }
-
 a {
     font-style: italic;
     color: white;    
@@ -49,4 +48,20 @@ a:hover {
 a:visited {
     color: white;
     text-decoration: none;
+}
+.titre
+{
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+}
+.square
+{
+    list-style-type: square;
+}
+hr
+{
+   height: 3px;
+   width: 50%;
 }
