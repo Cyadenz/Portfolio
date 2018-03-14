@@ -29,18 +29,20 @@
   <body>
 
     <div class="overlay">
+      <img src="img/bg-mobile-fallback.jpg" alt="Norway" style="width: 100%;max-height:100%;opacity: 0.2;">
 <!--       <div class="overlayFenetre"> -->
-        <div style="margin-left: 40%; 
-                    margin-right: 15%; 
-                    margin-top: 1.5%; 
-                    margin-bottom: : 1.5%;
-                    /*background-color: blue;*/
+        <div style="    position: absolute;
+                        top: 48%;
+                        left: 66%;
+                        transform: translate(-50%, -50%);;
+                    /*background-color: blue;
                     ">
 
              @yield('content')
 <!-- 
         </div>  -->
       </div>
+      <!-- <img src="img/bg-mobile-fallback.jpg" alt="Norway" style="width:100%;opacity: 0.5;"> -->
     </div>
 
     <div class="masthead">
@@ -52,29 +54,29 @@
               <h1 class="mb-3">Mes projets</h1>
               <p class="mb-5">Voici l'arborescence de mes projets :
                 <ul>
-                  <li><a href="/mesProjets">Mes projets</a></li>
-                  <li id="flip1">TP
+                  <li><a href="/mesProjets"> Mes projets</a></li>
+                  <li id="flip1">TP <i class="fa fa-angle-right"></i>
                     <ul>           
                       <div id="panel1">
-                        <li><a href="/mesProjets/TP/solitaire">Solitaire</a></li>
+                        <li><a href="/solitaire"> Solitaire</a></li>
                       </div>
                     </ul>
                   </li>
-                  <li id="flip2">PPE
+                  <li id="flip2">PPE <i class="fa fa-angle-right"></i>
                     <ul>
                       <div id="panel2">
                         <li><a href="/esf">Vzegzergergls</a></li>
                       </div>
                     </ul>
                   </li>
-                  <li id="flip3">Comptabilité & gestion
+                  <li id="flip3">Comptabilité & gestion <i class="fa fa-angle-right"></i>
                     <ul>
                       <div id="panel3">
                         <li><a href="/qsdfd">Viszegrzeols</a></li>
                       </div>
                     </ul>
                   </li>
-                  <li id="flip4">Stage
+                  <li id="flip4">Stage <i class="fa fa-angle-right"></i>
                     <ul>
                       <div id="panel4">
                         <li><a href="/fsqf">Vzefetgzerls</a></li>
