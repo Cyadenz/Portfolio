@@ -246,9 +246,6 @@ $(document).ready(function(){
           </div>
         </div>
 
-        <div id="flip">Click to slide the panel down or up</div>
-        <div id="panel">Hello world!</div>
-
       </div>
     </section>
 

@@ -2,15 +2,15 @@
 
 @section('content')
 <div class="contenu">
-	<div class="titre"><i class="fa fa-bookmark"></i> Solitaire</div><br />
+	<div class="titre"><i class="fa fa-bookmark"></i> Annuaire (1ère année)</div><br />
 	<p class="description">
 		<i class="fa fa-quote-left fa-pull-left"></i>
-		Il s'agit d'un projet en binôme où l'on devait réalisé un Solitaire en version console.<br/>
+		Il s'agit d'un projet où l'on devait réalisé un annuaire de contacts.<br/>
 		Les caractéristiques du projet sont les suivantes :<br/>
 		<ul class="fa-ul">
-			<li class="square"> Langage utilisé : Java</li>
-			<li class="square"> Environnement : IDE d'Eclispe</li>
-			<li class="square"> Lien github : <a href="https://github.com/lyauy/Solitaire-lyup">https://github.com/lyauy/Solitaire-lyup</a></li>
+			<li class="square"> Langage utilisé : C</li>
+			<li class="square"> Environnement : IDE de Codeblocks</li>
+			<li class="square"> Lien github : <a href="https://github.com/Cyadenz/Annuaire">https://github.com/Cyadenz/Annuaire</a></li>
 		</ul>
 	</p>
 	<hr><br />

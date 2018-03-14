@@ -27,4 +27,15 @@ Route::get('/solitaire', function () {
     return view('MesProjets.TP.solitaire');
 });
 
+Route::get('/boutique', function () {
+    return view('MesProjets.TP.boutique');
+});
+
+Route::get('/annuaire', function () {
+    return view('MesProjets.TP.annuaire');
+});
+
+Route::get('/parking', function () {
+    return view('MesProjets.PPE.parking');
+});
 

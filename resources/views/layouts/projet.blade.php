@@ -30,7 +30,6 @@
 
     <div class="overlay">
       <img src="img/bg-mobile-fallback.jpg" alt="Norway" style="width: 100%;max-height:100%;opacity: 0.2;">
-<!--       <div class="overlayFenetre"> -->
         <div style="    position: absolute;
                         top: 48%;
                         left: 66%;
@@ -39,10 +38,8 @@
                     ">
 
              @yield('content')
-<!-- 
-        </div>  -->
       </div>
-      <!-- <img src="img/bg-mobile-fallback.jpg" alt="Norway" style="width:100%;opacity: 0.5;"> -->
+
     </div>
 
     <div class="masthead">
@@ -59,13 +56,16 @@
                     <ul>           
                       <div id="panel1">
                         <li><a href="/solitaire"> Solitaire</a></li>
+                        <li><a href="/boutique"> Boutique</a></li>
+                        <li><a href="/annuaire"> Annuaire</a></li>
                       </div>
                     </ul>
                   </li>
                   <li id="flip2">PPE <i class="fa fa-angle-right"></i>
                     <ul>
                       <div id="panel2">
-                        <li><a href="/esf">Vzegzergergls</a></li>
+                        <li><a href="/parking"> Parking</a></li>
+                        <li><a href="/annuaire"> dfaefzefzef</a></li>
                       </div>
                     </ul>
                   </li>
@@ -89,7 +89,7 @@
             </div>
             <br /><br /><br />
             <div class="masthead-content text-white py-5 py-md-0">
-              <a class="btn btn-secondary" href="/" type="button">&cularr; Retour page principal</a>
+              <a class="btn btn-secondary" href="/#portfolio" type="button">&cularr; Retour page principal</a>
             </div>
           </div>
         </div>

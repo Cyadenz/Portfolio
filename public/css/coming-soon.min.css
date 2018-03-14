@@ -2,37 +2,45 @@ html{height:100%}h1,h2,h3,h4,h5,h6{font-family:Merriweather;font-weight:700}body
 
 #panel1, #flip1 {
     padding: 4px;
-   /* border: solid 1px #c3c3c3;*/
+/*    border: solid 1px #c3c3c3;*/
 }
 #panel1 {
-    padding: 10px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: none;
 }
 
 #panel2, #flip2 {
     padding: 4px;
-   /* border: solid 1px #c3c3c3;*/
+/*    border: solid 1px #c3c3c3;*/
 }
 #panel2 {
-    padding: 10px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: none;
 }
 
 #panel3, #flip3 {
     padding: 4px;
-   /* border: solid 1px #c3c3c3;*/
+/*    border: solid 1px #c3c3c3;*/
 }
 #panel3 {
-    padding: 10px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: none;
 }
 
 #panel4, #flip4 {
     padding: 4px;
-   /* border: solid 1px #c3c3c3;*/
+/*    border: solid 1px #c3c3c3;*/
 }
 #panel4 {
-    padding: 10px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: none;
 }
 a {
