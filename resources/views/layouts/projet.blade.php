@@ -29,7 +29,7 @@
   <body>
 
     <div class="overlay">
-      <div class="overlayFenetre">
+<!--       <div class="overlayFenetre"> -->
         <div style="margin-left: 40%; 
                     margin-right: 15%; 
                     margin-top: 1.5%; 
@@ -38,8 +38,8 @@
                     ">
 
              @yield('content')
-
-        </div> 
+<!-- 
+        </div>  -->
       </div>
     </div>
 
