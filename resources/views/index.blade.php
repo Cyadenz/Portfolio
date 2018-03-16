@@ -98,11 +98,17 @@ $(document).ready(function(){
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white"><i class="fa fa-info-circle fa-1.5x"></i> À propos</h2>
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-center section-heading text-white"><i class="fa fa-info-circle fa-1.5x"></i> À propos</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+            <p class="text-faded mb-4">Je suis actuellement étudiant en seconde année de BTS SIO (Services Informatiques aux Organisations), spécialisé dans l'option SLAM (Solutions Logicielles et Applications Métiers) et activement à la recherche d'une alternance pour pouvoir continuer mes études en licence profesionnelle !<br /><br />
+            Vous trouverez sur ce portfolio mon Curriculum Vitae, mes compétences, TP, projets...
+            </p>
+            <button class="button button1"><i class="fa fa-search"></i> Afficher mon CV</button>
+            <button class="button button1 pull-right"><i class="fa fa-download"></i> Télécharger mon CV</button>
+            <br/ ><br/ ><br/ ><br/ >
+            <center><a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Continuer</a></center>
+            <!-- Utilisé un MODAL -->
           </div>
         </div>
       </div>
@@ -219,12 +225,17 @@ $(document).ready(function(){
               <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
+
                   <div class="project-category text-faded">
                     Category
                   </div>
                   <div class="project-name">
                     Project Name
                   </div>
+                  <div class="project-href">
+                    <!-- <a href="#">a</a> -->
+                  </div>
+     
                 </div>
               </div>
             </a>
