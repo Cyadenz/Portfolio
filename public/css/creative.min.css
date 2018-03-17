@@ -18,12 +18,12 @@ body,html{width:100%;height:100%}body{font-family:Merriweather,'Helvetica Neue',
 {
   background-color: white;
   color: black;
-
 }
 .button1:hover
 {
   background-color: #555555;
   color: white;
+  text-decoration: none;
 }
   @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -35,4 +35,32 @@ body,html{width:100%;height:100%}body{font-family:Merriweather,'Helvetica Neue',
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-href {
     font-size: 28px;
   }
+}
+
+.CV
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.scrollToTop{
+  width:80px; 
+  height:80px;
+  padding:10px; 
+  text-align:center; 
+  background: white;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position:fixed;
+  bottom:5%;
+  right:40px;
+  display:none;
+  border: solid;
+  z-index: 1;
+}
+.scrollToTop:hover{
+  text-decoration:none;
 }

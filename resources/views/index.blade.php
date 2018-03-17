@@ -28,29 +28,11 @@
 
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<script> 
-$(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
-    });
-});
-</script>
-<style> 
-#panel, #flip {
-    padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-}
-
-#panel {
-    padding: 50px;
-    display: none;
-}
-</style>
   </head>
 
   <body id="page-top">
+
+    <a href="#page-top" class="scrollToTop js-scroll-trigger"><i class="fa fa-chevron-up fa-3x"></i></a>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -89,7 +71,7 @@ $(document).ready(function(){
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">En savoir plus<br/ ><i class="fa fa-arrow-down"></i></a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">En savoir plus<br/ ></a>
           </div>
         </div>
       </div>
@@ -104,11 +86,11 @@ $(document).ready(function(){
             <p class="text-faded mb-4">Je suis actuellement étudiant en seconde année de BTS SIO (Services Informatiques aux Organisations), spécialisé dans l'option SLAM (Solutions Logicielles et Applications Métiers) et activement à la recherche d'une alternance pour pouvoir continuer mes études en licence profesionnelle !<br /><br />
             Vous trouverez sur ce portfolio mon Curriculum Vitae, mes compétences, TP, projets...
             </p>
-            <button class="button button1"><i class="fa fa-search"></i> Afficher mon CV</button>
-            <button class="button button1 pull-right"><i class="fa fa-download"></i> Télécharger mon CV</button>
+            <button class="button button1" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"></i> Afficher mon CV</button>
+            <a class="button button1 pull-right" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon CV</a>
             <br/ ><br/ ><br/ ><br/ >
+
             <center><a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Continuer</a></center>
-            <!-- Utilisé un MODAL -->
           </div>
         </div>
       </div>
@@ -291,85 +273,18 @@ $(document).ready(function(){
       </div>
     </section>
 
-    <section class="bg-light" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio2/01-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
 
-    <!-- Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio2/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Modal test -->
-<div class="container">
-  <h2>Large Modal</h2>
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
+  <!-- MODAL myModal -->
 
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
+          <h4 class="modal-title">Curriculum Vitae</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
         </div>
-        <div class="modal-body" style="max-height: 800px;">
-          <p>This is a large modal.</p>
+        <div class="modal-body" style="max-height: 1000px;">
+          <img class="CV" src="doc/CV_ugo.PNG">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -377,7 +292,7 @@ $(document).ready(function(){
       </div>
     </div>
   </div>
-</div>
+
 
 
     <!-- Bootstrap core JavaScript -->
@@ -392,30 +307,6 @@ $(document).ready(function(){
 
     <!-- Custom scripts for this template -->
     <script src="{{ asset('js/creative.min.js') }}" type="text/javascript"></script>
-
-    <script> 
-      $(document).ready(function(){
-          $("#flip").click(function(){
-              $("#panel").slideToggle("slow");
-          });
-      });
-    </script>
-    <style> 
-      #panel, #flip {
-          padding: 5px;
-          text-align: center;
-          background-color: #e5eecc;
-          border: solid 1px #c3c3c3;
-          background-color: white;
-      }
-
-      #panel {
-          padding: 50px;
-          display: none;
-          background-color: white;
-      }
-    </style>
-
   </body>
 
 </html>
