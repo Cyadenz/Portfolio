@@ -28,6 +28,7 @@
 
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
   </head>
 
   <body id="page-top">
@@ -47,10 +48,13 @@
               <a class="nav-link js-scroll-trigger" href="#about">À propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#veille">Veille technologique</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#Projets">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#competences">Compétences</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -83,63 +87,69 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-center section-heading text-white"><i class="fa fa-info-circle fa-1.5x"></i> À propos</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Je suis actuellement étudiant en seconde année de BTS SIO (Services Informatiques aux Organisations), spécialisé dans l'option SLAM (Solutions Logicielles et Applications Métiers) et activement à la recherche d'une alternance pour pouvoir continuer mes études en licence profesionnelle !<br /><br />
-            Vous trouverez sur ce portfolio mon Curriculum Vitae, mes compétences, TP, projets...
-            </p>
+            <div class="LigneV mb-4"> 
+              <p class="text-faded mb-4 ml-2">Je suis actuellement étudiant en seconde année de BTS SIO (Services Informatiques aux Organisations), spécialisé dans l'option SLAM (Solutions Logicielles et Applications Métiers) et activement à la recherche d'une alternance pour pouvoir continuer mes études en licence profesionnelle !<br /><br />
+              Vous trouverez sur ce portfolio mon Curriculum Vitae, mes compétences, TP, projets...
+              </p>
+            </div>
             <button class="button button1" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"></i> Afficher mon CV</button>
             <a class="button button1 pull-right" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon CV</a>
             <br/ ><br/ ><br/ ><br/ >
 
-            <center><a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Continuer</a></center>
+            <center><a class="btn btn-light btn-xl js-scroll-trigger" href="#veille">Continuer</a></center>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services">
+    <section id="veille">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading"><i class="fa fa-1.5x fa-newspaper-o"></i> Veille technologique</h2>
             <hr class="my-4">
+            <button class="accordion text-center mb-2">Qu'est ce que la veille technologique ?</button>
+              <div class="panel">
+                <p>La veille technologique ou veille scientifique et technique consiste à s'informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale. Aujourd’hui, la veille technologique possède une place majeure <br/>dans le travail d’un informaticien.</p>
+              </div>
           </div>
         </div>
-      </div>
+      </div><br/><br/>
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-            </div>
+            <a class="liensV service-box mt-5 mx-auto" href="/">
+              <i class="fa fa-4x fa-heartbeat mb-3 sr-icons"></i>
+              <h3 class="mb-3">Processeur</h3>
+              <p class="text-muted mb-0">Consulter ma veille technologique des processeurs</p>
+            </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+            <a class="liensV service-box mt-5 mx-auto"  href="/">
+              <i class="fa fa-4x fa-paper-plane mb-3 sr-icons"></i>
               <h3 class="mb-3">Ready to Ship</h3>
               <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-            </div>
+            </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+            <a class="liensV service-box mt-5 mx-auto"  href="/">
+              <i class="fa fa-4x fa-newspaper-o mb-3 sr-icons"></i>
               <h3 class="mb-3">Up to Date</h3>
               <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-            </div>
+            </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+            <a class="liensV service-box mt-5 mx-auto"  href="/">
+              <i class="fa fa-4x fa-heart mb-3 sr-icons"></i>
               <h3 class="mb-3">Made with Love</h3>
               <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="p-0" id="portfolio">
+    <section class="p-0" id="Projets">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
@@ -244,12 +254,36 @@
 
     <section class="bg-dark text-white">
       <div class="container text-center">
-        <h2 class="mb-4">Vous souhaitez voir tout mes projets ?</h2>
+        <h2 class="mb-4">Vous souhaitez voir tout mes projets en détails ?</h2>
         <a class="btn btn-light btn-xl sr-button" href="/mesProjets">Afficher mes projets</a>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="competences">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Tableau des compétences</h2>
+            <hr class="my-4">
+            <p class="mb-5">Compétences relatives aux BTS SIO (Services Informatiques aux Organisations) SLAM (Solutions Logicielles et Applications Métiers)</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+              <button class="button button2" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"></i> Afficher mon tableau</button>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <p>
+              <a class="button button2 pull-right" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon tableau</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!--  <hr class="separation"> -->
+
+    <section class="bg-primary text-white" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -272,7 +306,6 @@
         </div>
       </div>
     </section>
-
 
   <!-- MODAL myModal -->
 
@@ -302,6 +335,7 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.6/scrollreveal.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
