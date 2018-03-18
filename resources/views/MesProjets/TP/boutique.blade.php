@@ -5,7 +5,7 @@
 	<div class="titre"><i class="fa fa-bookmark"></i> Boutique (1ère année)</div><br />
 	<p class="description">
 		<i class="fa fa-quote-left fa-pull-left"></i>
-		Il s'agit d'un projet en binôme où l'on devait réalisé un site connecté à une base de données nous permettant de vendre des éléments de notre choix.<br/>
+		Il s'agit d'un projet en binôme où l'on devait réaliser un site connecté à une base de données nous permettant de vendre des éléments de notre choix.<br/>
 		Les caractéristiques du projet sont les suivantes :<br/>
 		<ul class="fa-ul">
 			<li class="square"> Langage utilisé : HTML/CSS & PHP</li>
@@ -30,4 +30,22 @@
   <label for="checkbox">Autoplay Slider</label>
 </div> -->
 </div>
+@endsection
+
+@section('complements')
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-info"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-file-pdf-o"></i>
+          </a>
+        </li>
 @endsection

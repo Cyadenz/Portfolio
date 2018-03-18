@@ -65,7 +65,7 @@
                     <ul>
                       <div id="panel2">
                         <li><a href="/parking"> Parking</a></li>
-                        <li><a href="/annuaire"> dfaefzefzef</a></li>
+                        <li><a href="/annuaire"> Site de la M2L</a></li>
                       </div>
                     </ul>
                   </li>
@@ -76,10 +76,12 @@
                       </div>
                     </ul>
                   </li>
-                  <li id="flip4">Stage <i class="fa fa-angle-right"></i>
+                  <li id="flip4">Stages <i class="fa fa-angle-right"></i>
                     <ul>
                       <div id="panel4">
-                        <li><a href="/fsqf">Vzefetgzerls</a></li>
+                        <li><a href="/premiereAnnee">Génération d'un mandat de prélèvement</a></li>
+                        <li><a href="/premiereAnneeP2">Parseur & graphique</a></li>
+                        <li><a href="/secondeAnnee">Site plomberie</a></li>
                       </div>
                     </ul>
                   </li>
@@ -98,21 +100,9 @@
 
     <div class="social-icons">
       <ul class="list-unstyled text-center mb-0">
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fa fa-facebook"></i>
-          </a>
-        </li>
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fa fa-instagram"></i>
-          </a>
-        </li>
+        
+        @yield('complements')
+
       </ul>
     </div>
 

@@ -2,19 +2,19 @@
 
 @section('content')
 <div class="contenu">
-	<div class="titre"><i class="fa fa-bookmark"></i> Annuaire (1ère année)</div><br />
-	<p class="description">
+	<div class="titre"><i class="fa fa-bookmark"></i> Stage de 1ere année (1er projet)</div><br />
+	<p class="contexte">
 		<i class="fa fa-quote-left fa-pull-left"></i>
-		Il s'agit d'un projet où l'on devait réaliser un annuaire de contacts.<br/>
-		Les caractéristiques du projet sont les suivantes :<br/>
+		Lors de mon stage de première année j’ai été accueilli par l'ESi de Nanterre situé au : 167-177, avenue de Joliot Curie – 92013 Nanterre Cedex. Cette ESI est en charge d'applications telle que SATELIT ( Paiement de l'impôt par Internet ) et PASIFAE ( un des modules composant le prélèvement à la source des impôts qui devait rentrer en vigueur le 1er janvier 2018). Ces 2 applications étant en développement et maintenance.<br/><br />
+
+		Dans mon premier projet, je devais confectionner une JSP permettant de  modifier une classe utilitaire de calcul du RUM et modifier le code de l'application générant le mandat de prélèvement (PAS).<br />
 		<ul class="fa-ul">
-			<li class="square"> Langage utilisé : C</li>
-			<li class="square"> Environnement : IDE de Codeblocks</li>
-			<li class="square"> Lien github : <a href="https://github.com/Cyadenz/Annuaire">https://github.com/Cyadenz/Annuaire</a></li>
+			<li class="square"> Langage utilisé : HTML/CSS & Java EE<li>
+			<li class="square"> Environnement : IDE d'Eclipse</li>
 		</ul>
 	</p>
-	<hr><br />
 <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
+
 <div id="slider">
   <a href="#" class="control_next">></a>
   <a href="#" class="control_prev"><</a>

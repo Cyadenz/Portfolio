@@ -5,7 +5,7 @@
 	<div class="titre"><i class="fa fa-bookmark"></i> Solitaire</div><br />
 	<p class="description">
 		<i class="fa fa-quote-left fa-pull-left"></i>
-		Il s'agit d'un projet en binôme où l'on devait réalisé un Solitaire en version console.<br/>
+		Il s'agit d'un projet en binôme où l'on devait réaliser un Solitaire en version console.<br/>
 		Les caractéristiques du projet sont les suivantes :<br/>
 		<ul class="fa-ul">
 			<li class="square"> Langage utilisé : Java</li>
@@ -30,4 +30,22 @@
   <label for="checkbox">Autoplay Slider</label>
 </div> -->
 </div>
+@endsection
+
+@section('complements')
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-info"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-file-pdf-o"></i>
+          </a>
+        </li>
 @endsection

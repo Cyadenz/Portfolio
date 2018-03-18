@@ -2,15 +2,15 @@
 
 @section('content')
 <div class="contenu">
-	<div class="titre"><i class="fa fa-bookmark"></i> Annuaire (1ère année)</div><br />
+	<div class="titre"><i class="fa fa-bookmark"></i> Site de la M2L (1ère année)</div><br />
 	<p class="description">
 		<i class="fa fa-quote-left fa-pull-left"></i>
-		Il s'agit d'un projet où l'on devait réaliser un annuaire de contacts.<br/>
+		Il s'agit de notre 1er projet où l'on devait réaliser un site présentant la M2L et ses équipes.<br/>
 		Les caractéristiques du projet sont les suivantes :<br/>
 		<ul class="fa-ul">
-			<li class="square"> Langage utilisé : C</li>
-			<li class="square"> Environnement : IDE de Codeblocks</li>
-			<li class="square"> Lien github : <a href="https://github.com/Cyadenz/Annuaire">https://github.com/Cyadenz/Annuaire</a></li>
+			<li class="square"> Langage utilisé : HTML/CSS</li>
+			<li class="square"> Environnement : WAMPServeur</li>
+			<li class="square"> Lien github : <a href="https://github.com/Cyadenz/ParkingM2L">https://github.com/Cyadenz/ParkingM2L</a></li>
 		</ul>
 	</p>
 	<hr><br />

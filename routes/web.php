@@ -39,3 +39,21 @@ Route::get('/parking', function () {
     return view('MesProjets.PPE.parking');
 });
 
+Route::get('/siteM2L', function () {
+    return view('MesProjets.PPE.m2l');
+});
+
+Route::get('/premiereAnnee', function () {
+    return view('MesProjets.Stage.1ereAnnee');
+});
+
+Route::get('/premiereAnneeP2', function () {
+    return view('MesProjets.Stage.1ereAnneeP2');
+});
+
+Route::get('/secondeAnnee', function () {
+    return view('MesProjets.Stage.2iemeAnnee');
+});
+
+
+

@@ -2,19 +2,19 @@
 
 @section('content')
 <div class="contenu">
-	<div class="titre"><i class="fa fa-bookmark"></i> Annuaire (1ère année)</div><br />
-	<p class="description">
+	<div class="titre"><i class="fa fa-bookmark"></i> Stage de 2ieme année</div><br />
+	<p class="contexte">
 		<i class="fa fa-quote-left fa-pull-left"></i>
-		Il s'agit d'un projet où l'on devait réaliser un annuaire de contacts.<br/>
-		Les caractéristiques du projet sont les suivantes :<br/>
+		Lors de mon stage de seconde année j’ai été accueilli dans l'entreprise AG2 de Plomberie situé au : 167-177, avenue de Joliot Curie – 92013 Nanterre Cedex. Cette ESI est en charge d'applications telle que SATELIT ( Paiement de l'impôt par Internet ) et PASIFAE ( un des modules composant le prélèvement à la source des impôts qui devait rentrer en vigueur le 1er janvier 2018). Ces 2 applications étant en développement et maintenance.<br/><br />
+
+		Je devais créer un site web de plomberie présentant l'entreprise. J'ai donc ainsi choisis d'utiliser Laravel pour réaliser ce projet.<br />
 		<ul class="fa-ul">
-			<li class="square"> Langage utilisé : C</li>
-			<li class="square"> Environnement : IDE de Codeblocks</li>
-			<li class="square"> Lien github : <a href="https://github.com/Cyadenz/Annuaire">https://github.com/Cyadenz/Annuaire</a></li>
+			<li class="square"> Langage utilisé : HTML/CSS & PHP ( framework Laravel )<li>
+			<li class="square"> Environnement : Laravel ( framework PHP )</li>
 		</ul>
 	</p>
-	<hr><br />
 <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
+
 <div id="slider">
   <a href="#" class="control_next">></a>
   <a href="#" class="control_prev"><</a>
