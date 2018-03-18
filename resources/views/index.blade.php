@@ -108,7 +108,7 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading"><i class="fa fa-1.5x fa-newspaper-o"></i> Veille technologique</h2>
             <hr class="my-4">
-            <button class="accordion text-center mb-2">Qu'est ce que la veille technologique ?</button>
+            <button class="accordion text-center mb-2">Qu'est ce que la veille technologique ? <div class="fa fa-chevron-right fa-1.5x rotate pull-right"></div></button>
               <div class="panel">
                 <p>La veille technologique ou veille scientifique et technique consiste à s'informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale. Aujourd’hui, la veille technologique possède une place majeure <br/>dans le travail d’un informaticien.</p>
               </div>
@@ -118,10 +118,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
-            <a class="liensV service-box mt-5 mx-auto" href="/">
+            <a class="liensV service-box mt-5 mx-auto" data-toggle="modal" href="#Veille1">
               <i class="fa fa-4x fa-heartbeat mb-3 sr-icons"></i>
               <h3 class="mb-3">Processeur</h3>
-              <p class="text-muted mb-0">Consulter ma veille technologique des processeurs</p>
+              <p class="text-muted mb-0">Consulter ma veille technologique sur les processeurs.</p>
             </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
@@ -145,7 +145,14 @@
               <p class="text-muted mb-0">You have to make your websites with love these days!</p>
             </a>
           </div>
-        </div>
+        </div><br/>
+
+
+<hr class="separation"><br/>
+
+ <center><p>Liens de mes recherches en rapport avec ma veille technologique</p><iframe src="//www.pearltrees.com/ugop?embed=2&d=201803181548" width="853" height="404" style="border:1px;" allowtransparency="true"></iframe><span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="http://www.pearltrees.com/ugop" style=" color:#818181; font-size:13px;" target="_blank">Ugop</a></span></center>
+
+
       </div>
     </section>
 
@@ -308,7 +315,6 @@
     </section>
 
   <!-- MODAL myModal -->
-
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -326,6 +332,41 @@
     </div>
   </div>
 
+  <!-- MODAL Veille1 -->
+  <div class="modal fade" id="Veille1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Veille technologique sur les processeurs</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="max-height: 1000px;">
+
+  <div class="titre-modal"><i class="fa fa-bookmark"></i> Les processeurs</div><br />
+  <p class="description-modal">
+    <ul>
+      <li>
+        Pourquoi les processeurs ?<br /><br/>
+      </li>
+        <i class="fa fa-quote-left fa-pull-left"></i>
+        Ma veille technologique porte sur le thème des processeurs <br/>(ou unité centrale de traitement) car, élément clé d'un ordinateur ils sont représentés <br/>comme le coeur de l'ordinateur.<br/> En constantes évolutions, ils permettent d'exécuter des instructions leurs étant données par le système d’exploitation.<br/><br/>
+      <li>
+        Pour me tenir à jour des avancées technologiques de ce domaines j'utilise :<br/><br/>
+      </li>
+        NetVibes (site permettant de regrouper les flux RSS relatif à un centre d'interêt).
+        Vous pouvez retrouver une capture de mon NetVibes en cliquant sur le bouton suivant,<br/><br/>
+    </ul>
+  </p>
+  <hr><br />
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     <!-- Bootstrap core JavaScript -->
