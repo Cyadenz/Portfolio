@@ -507,6 +507,16 @@ header.masthead p {
 .button1:hover
 {
   background-color: #555555;
-  color: white;
-  
+  color: white;  
+}
+.buttonModal
+{
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.buttonModal:hover
+{
+  background-color: #555555;
+  color: white;  
 }

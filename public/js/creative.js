@@ -50,6 +50,11 @@
     duration: 1000,
     delay: 200
   });
+  sr.reveal('.sr-bar', {
+    duration: 500,
+    scale: 0.3,
+    distance: '0px'
+  }, 200);
   sr.reveal('.sr-contact', {
     duration: 600,
     scale: 0.3,

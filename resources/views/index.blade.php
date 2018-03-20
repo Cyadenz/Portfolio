@@ -75,7 +75,7 @@
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">En savoir plus<br/ ></a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger sr-button" href="#about">En savoir plus<br/ ></a>
           </div>
         </div>
       </div>
@@ -92,43 +92,76 @@
               Vous trouverez sur ce portfolio mon Curriculum Vitae, mes compétences, TP, projets...
               </p>
             </div>
-            <button class="button button1" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"></i> Afficher mon CV</button>
-            <a class="button button1 pull-right" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon CV</a>
+            <button class="button button1 sr-2button" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"></i> Afficher mon CV</button>
+            <a class="button button1 pull-right sr-2button" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon CV</a>
             <br/ ><br/ ><br/ ><br/ >
 
-            <center><a class="btn btn-light btn-xl js-scroll-trigger" href="#veille">Continuer</a></center>
+            <center><a class="btn btn-light btn-xl js-scroll-trigger sr-button" href="#competences">Continuer</a></center>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="competences">
-       <h2 class="text-center mb-4">Compétences</h2><br />
+<section id="competences">
+       <h2 class="text-center mb-4"><i class="fa fa-bar-chart"></i> Compétences</h2><br />
       <div class="container">
 
         <div id="Pleft">
-          <h5>Pleft</h5>
-          <div class="progress" style="height: 50%;width: 475px;">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-              80%
+          <h5 class="text-center">Java</h5>
+          <div class="progress sr-bar" style="height: 50%;width: 475px;">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%; background-color: #212529!important">
+              30%
             </div>
           </div>
         </div>
         <div id="Pright">
-          <h5>Pright</h5>
-          <div class="progress" style="height: 50%;width: 500px;">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-            40%
+          <h5 class="text-center">PHP</h5>
+          <div class="progress sr-bar" style="height: 50%;width: 500px;">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:45%;
+            background-color: #006cf0!important">
+            45%
+            </div>
+          </div>
+        </div><br/><br />
+
+        <div id="Pleft">
+          <h5 class="text-center">SQL</h5>
+          <div class="progress sr-bar" style="height: 50%;width: 475px;">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;
+            background-color: #C08443!important">
+              60%
             </div>
           </div>
         </div>
-
-   <!--      <div class="progress">
-          <div class="progress-bar progress-bar-striped active" role="progressbar"
-              aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">40%
+        <div id="Pright">
+          <h5 class="text-center">C</h5>
+          <div class="progress sr-bar" style="height: 50%;width: 500px;">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%;
+            background-color: #f05f40!important">
+            35%
+            </div>
           </div>
-        </div> -->
+        </div><br/><br />
+        <div id="Pleft">
+          <h5 class="text-center">Laravel</h5>
+          <div class="progress sr-bar" style="height: 50%;width: 475px;">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%;
+            background-color: #3cf000!important">
+              50%
+            </div>
+          </div>
+        </div>
+        <div id="Pright">
+          <h5 class="text-center">HTML/CSS</h5>
+          <div class="progress sr-bar" style="height: 50%;width: 500px;">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%;
+            background-color: #e6e600!important">
+            65%
+            </div>
+          </div>
+        </div>
       </div>
+
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -139,11 +172,11 @@
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
-              <button class="button button2" type="button" data-toggle="modal" data-target="#compétences"><i class="fa fa-search"></i> Afficher les compétences</button>
+              <button class="button button2 sr-button" type="button" data-toggle="modal" data-target="#compétences"><i class="fa fa-search"></i> Afficher les compétences</button>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <p>
-              <a class="button button2 pull-right" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon tableau</a>
+              <a class="button button2 pull-right sr-button" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon tableau</a>
             </p>
           </div>
         </div>
@@ -266,7 +299,7 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading"><i class="fa fa-1.5x fa-newspaper-o"></i> Veille technologique</h2>
             <hr class="my-4">
-            <button class="accordion text-center mb-2">Qu'est ce que la veille technologique ? <div class="fa fa-chevron-right fa-1.5x rotate pull-right"></div></button>
+            <button class="accordion text-center mb-2 sr-veille">Qu'est ce que la veille technologique ? <div class="fa fa-chevron-right fa-1.5x rotate pull-right"></div></button>
               <div class="panel">
                 <p>La veille technologique ou veille scientifique et technique consiste à s'informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale. Aujourd’hui, la veille technologique possède une place majeure <br/>dans le travail d’un informaticien.</p>
               </div>
@@ -343,15 +376,15 @@
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Curriculum Vitae</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header" style="background-color: #006cf0!important">
+          <h4 class="modal-title text-white"><em>Curriculum Vitae</em></h4>
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body" style="max-height: 1000px;">
           <img class="CV" src="doc/CV_ugo.PNG">
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <div class="modal-footer" style="background-color: #006cf0!important">
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -361,9 +394,9 @@
   <div class="modal fade" id="Veille1" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Veille technologique sur les processeurs</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header" style="background-color: #006cf0!important">
+          <h4 class="modal-title text-white"><em>Veille technologique sur les processeurs</em></h4>
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body" style="max-height: 1000px;">
           <div class="titre-modal"><i class="fa fa-bookmark"></i> Les processeurs</div><br />
@@ -383,8 +416,8 @@
           </p>
           <hr><br />
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <div class="modal-footer" style="background-color: #006cf0!important">
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -394,9 +427,9 @@
   <div class="modal fade" id="compétences" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Compétences relatives au SLAM</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header" style="background-color: #006cf0!important">
+          <h4 class="modal-title text-white"><em>Compétences relatives au SLAM</em></h4>
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body" style="max-height: 1500px;max-width: 1200px;">
         <p>
@@ -462,8 +495,8 @@
 
         </p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <div class="modal-footer" style="background-color: #006cf0!important">
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>

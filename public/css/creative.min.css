@@ -65,6 +65,17 @@ hr.separation {
   }
 }
 
+.buttonModal
+{
+  background-color:white;
+  border-color:#006cf0;
+}
+.buttonModal:hover
+{
+  background-color: #555555;
+  color: white;  
+}
+
 .CV
 {
   display: block;
@@ -152,18 +163,18 @@ hr.separation {
     text-align: center;
 }
 
-#Pleft
-{
-position: relative;
-display: inline-block;
-margin-right: 10px;
-width: 100px;
-left: 5%;
-}
-#Pright
-{
-position: relative;
-display: inline-block;
-width: 100px;
-left: 42%;
+#Pleft { 
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; 
+    width: 43%; 
+    left: 5%; 
+} 
+
+#Pright 
+{    
+  position: relative; 
+  display: inline-block; 
+  width: 43%; 
+  left: 8%;
 }
