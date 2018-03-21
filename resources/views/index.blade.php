@@ -28,7 +28,6 @@
 
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
   </head>
 
   <body id="page-top">
@@ -103,62 +102,44 @@
     </section>
 
 <section id="competences">
+    <div class="container">
        <h2 class="text-center mb-4"><i class="fa fa-bar-chart"></i> Compétences</h2><br />
-      <div class="container">
-
         <div id="Pleft">
           <h5 class="text-center">Java</h5>
-          <div class="progress sr-bar" style="height: 50%;width: 475px;">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%; background-color: #212529!important">
-              30%
-            </div>
+          <div class="barS">
+            <div class="skills html sr-bar" style="background-color: #212529!important;width: 30%;">30%</div>
           </div>
         </div>
         <div id="Pright">
           <h5 class="text-center">PHP</h5>
-          <div class="progress sr-bar" style="height: 50%;width: 500px;">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:45%;
-            background-color: #006cf0!important">
-            45%
-            </div>
+          <div class="barS">
+            <div class="skills html sr-bar" style="background-color: #006cf0!important;width: 45%;">45%</div>
           </div>
         </div><br/><br />
 
         <div id="Pleft">
           <h5 class="text-center">SQL</h5>
-          <div class="progress sr-bar" style="height: 50%;width: 475px;">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;
-            background-color: #C08443!important">
-              60%
-            </div>
+          <div class="barS">
+            <div class="skills html sr-bar" style="background-color: #C08443!important;width: 60%;">60%</div>
           </div>
         </div>
         <div id="Pright">
           <h5 class="text-center">C</h5>
-          <div class="progress sr-bar" style="height: 50%;width: 500px;">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%;
-            background-color: #f05f40!important">
-            35%
-            </div>
+          <div class="barS">
+            <div class="skills html sr-bar" style="background-color: #f05f40!important;width: 40%;">40%</div>
           </div>
         </div><br/><br />
         <div id="Pleft">
           <h5 class="text-center">Laravel</h5>
-          <div class="progress sr-bar" style="height: 50%;width: 475px;">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%;
-            background-color: #3cf000!important">
-              50%
-            </div>
+          <div class="barS">
+            <div class="skills html sr-bar" style="background-color: #4CAF50!important;width: 50%;">50%</div>
           </div>
         </div>
         <div id="Pright">
           <h5 class="text-center">HTML/CSS</h5>
-          <div class="progress sr-bar" style="height: 50%;width: 500px;">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%;
-            background-color: #e6e600!important">
-            65%
-            </div>
-          </div>
+          <div class="barS">
+            <div class="skills html sr-bar" style="background-color: #e6e600!important;width: 65%;">65%</div>
+          </div>       
         </div>
       </div>
 
@@ -183,113 +164,319 @@
       </div> 
     </section>
 
-    <section class="p-0" id="Projets">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
+    <section class="bg-primary" id="Projets">
+      <div class="container text-center">
 
-                  <div class="project-category text-faded">
-                    Category
+          <h2 class="text-center text-white mb-4"><i class="fa fa-book"></i> Mes projets</h2><br />
+          <button class="tablink" onclick="openPage('a', this, 'white')" id="defaultOpen">Projets principaux</button>
+          <button class="tablink" onclick="openPage('b', this, 'white')">TP</button>
+          <button class="tablink" onclick="openPage('c', this, 'white')">PPE</button>
+          <button class="tablink" onclick="openPage('d', this, 'white')">Stages</button> 
+          <button class="tablink" onclick="openPage('e', this, 'white')">Compta & Gestion</button>
+
+          <div id="a" class="tabcontent">
+            <div class="main">
+              <h3>Projets principaux</h3>
+              <div class="row" id="page1">
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/header.jpg" alt="Mountains" style="width:100%">
+                          <div class="img__description_layer">
+                            <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                           </div>
+                          <h3>Parking</h3>
+                          <p>Site parking de la M2L réalisé avec Laravel.</p>
+                      </a>
+                    </div>
                   </div>
-                  <div class="project-name">
-                    Project Name
+              </div>
+              
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Solitaire</h3>
+                        <p>Solitaire en version console sous Eclipse.</p>
+                      </a>
+                    </div>
                   </div>
-                  <div class="project-href">
-                    <!-- <a href="#">a</a> -->
+                </div>
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Site de plomberie</h3>
+                        <p>Site de plomberie (stage) réalisé avec Laravel.</p>
+                      </a>
+                    </div>
                   </div>
-     
                 </div>
               </div>
-            </a>
+
+              <div class="row" id="page2" style="display: none;">
+                
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/header.jpg" alt="Mountains" style="width:100%">
+                          <div class="img__description_layer">
+                            <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                           </div>
+                          <h3>Parseur Java</h3>
+                          <p>Site parking de la M2L réalisé avec Laravel.</p>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+              
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Boutique</h3>
+                        <p>Solitaire en version console sous Eclipse.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+              <div class="container">
+                  <div class="pagination">
+                    <a class="pag" href="#1" onclick="showPages('1')">&laquo;</a>
+                    <a class="pag" href="#1" id="focusMe" onclick="showPages('1')">1</a>
+                    <a class="pag" href="#2" onclick="showPages('2')">2</a>
+                    <a class="pag" href="#2" onclick="showPages('2')"">&raquo;</a>                 
+                  </div>
+              </div>
+
+            </div>
+
+
+          <div id="b" class="tabcontent">
+            <div class="main">
+              <h3>Travaux pratiques</h3>
+              <div class="row" id="page1">
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Solitaire</h3>
+                        <p>Solitaire en version console sous Eclipse.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Boutique</h3>
+                        <p>Site boutique réalisé sous WAMP en PHP/HTML/CSS/MySQL (1ère année).</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Annuaire</h3>
+                        <p>Annuaire de contacts réalise sous Code::blocks (1ère année).</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
+
+          <div id="c" class="tabcontent">
+            <div class="main">
+              <h3>Projets par équipes</h3>
+              <div class="row" id="page1">
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/header.jpg" alt="Mountains" style="width:100%">
+                          <div class="img__description_layer">
+                            <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                           </div>
+                          <h3>Parking</h3>
+                          <p>Site parking de la M2L réalisé avec Laravel.</p>
+                      </a>
+                    </div>
                   </div>
-                  <div class="project-name">
-                    Project Name
+              </div>
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Site de la M2L</h3>
+                        <p>Site de la M2L réalisé sous WAMP en PHP/HTML/CSS (1ère année).</p>
+                      </a>
+                    </div>
                   </div>
                 </div>
+
               </div>
-            </a>
+            </div>
+          </div>
+
+          <div id="d" class="tabcontent">
+            <div class="main">
+              <h3>Stages</h3>
+              <div class="row" id="page1">
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Site de plomberie</h3>
+                        <p>Site de plomberie (stage) réalisé avec Laravel.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Parsage de Jenkins</h3>
+                        <p>Parsage de l'HTMl de Jenkins pour créer un graphique Java (1ère année).</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Utilitaire J2EE</h3>
+                        <p>Création d'une JSP en relation avec une classe utilitaire (1ère année).</p>
+                      </a>
+                    </div>
+                </div>
+              </div>
+
           </div>
         </div>
-
       </div>
-    </section>
 
-    <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Vous souhaitez voir tout mes projets en détails ?</h2>
-        <a class="btn btn-light btn-xl sr-button" href="/mesProjets">Afficher mes projets</a>
+          <div id="e" class="tabcontent">
+            <div class="main">
+              <h3>Comptabilité & Gestion</h3>
+              <div class="row" id="page1">
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Facture</h3>
+                        <p>Réalisation d'un tableur excel pour le calcul d'une facture.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Amortissement</h3>
+                        <p>Réalisation d'un tableur excel pour le calcul d'un amortissement.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="img__wrap">
+                    <div class="content">
+                      <a class="abc" href="/">
+                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <div class="img__description_layer">
+                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                        </div>
+                        <h3>Emprunt</h3>
+                        <p>Réalisation d'un tableur excel pour le cas TELINOS.</p>
+                      </a>
+                    </div>
+                </div>
+              </div>
+
+              </div>
+            </div>
+          </div>
+
+
       </div>
     </section>
 
