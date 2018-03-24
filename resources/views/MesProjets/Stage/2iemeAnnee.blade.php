@@ -5,7 +5,7 @@
 	<div class="titre"><i class="fa fa-bookmark"></i> Stage de 2ieme année</div><br />
 	<p class="contexte">
 		<i class="fa fa-quote-left fa-pull-left"></i>
-		Lors de mon stage de seconde année j’ai été accueilli dans l'entreprise AG2 de Plomberie situé au : 167-177, avenue de Joliot Curie – 92013 Nanterre Cedex. Cette ESI est en charge d'applications telle que SATELIT ( Paiement de l'impôt par Internet ) et PASIFAE ( un des modules composant le prélèvement à la source des impôts qui devait rentrer en vigueur le 1er janvier 2018). Ces 2 applications étant en développement et maintenance.<br/><br />
+		Lors de mon stage de seconde année j’ai été accueilli dans l'entreprise de Plomberie AG2situé au : 167-177, avenue de Joliot Curie – 92013 Nanterre Cedex. Cette ESI est en charge d'applications telle que SATELIT ( Paiement de l'impôt par Internet ) et PASIFAE ( un des modules composant le prélèvement à la source des impôts qui devait rentrer en vigueur le 1er janvier 2018). Ces 2 applications étant en développement et maintenance.<br/><br />
 
 		Je devais créer un site web de plomberie présentant l'entreprise. J'ai donc ainsi choisis d'utiliser Laravel pour réaliser ce projet.<br />
 		<ul class="fa-ul">

@@ -91,7 +91,7 @@
               Vous trouverez sur ce portfolio mon Curriculum Vitae, mes compétences, TP, projets...
               </p>
             </div>
-            <button class="button button1 sr-2button" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"></i> Afficher mon CV</button>
+            <button class="button button1 sr-2button" type="button" data-toggle="modal" data-target="#Cv"><i class="fa fa-search"></i> Afficher mon CV</button>
             <a class="button button1 pull-right sr-2button" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon CV</a>
             <br/ ><br/ ><br/ ><br/ >
 
@@ -107,7 +107,7 @@
         <div id="Pleft">
           <h5 class="text-center">Java</h5>
           <div class="barS">
-            <div class="skills html sr-bar" style="background-color: #212529!important;width: 30%;">30%</div>
+            <div class="skills html sr-bar" style="background-color: #212529!important;width: 35%;">35%</div>
           </div>
         </div>
         <div id="Pright">
@@ -182,7 +182,7 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#parking">
                         <img src="img/header.jpg" alt="Mountains" style="width:100%">
                           <div class="img__description_layer">
                             <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -198,7 +198,7 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#solitaire">
                         <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -213,7 +213,7 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#plomberie">
                         <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -231,23 +231,23 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#parseur">
                         <img src="img/header.jpg" alt="Mountains" style="width:100%">
                           <div class="img__description_layer">
                             <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                            </div>
-                          <h3>Parseur Java</h3>
-                          <p>Site parking de la M2L réalisé avec Laravel.</p>
+                          <h3>Parsage de jenkins</h3>
+                          <p>Parsage de données & traçage d'un graphique en Java.</p>
                       </a>
                     </div>
                   </div>
-              </div>
+                </div>
               
 
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#boutique">
                         <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -261,15 +261,6 @@
               </div>
 
             </div>
-
-              <div class="container">
-                  <div class="pagination">
-                    <a class="pag" href="#1" onclick="showPages('1')">&laquo;</a>
-                    <a class="pag" href="#1" id="focusMe" onclick="showPages('1')">1</a>
-                    <a class="pag" href="#2" onclick="showPages('2')">2</a>
-                    <a class="pag" href="#2" onclick="showPages('2')"">&raquo;</a>                 
-                  </div>
-              </div>
 
             </div>
 
@@ -282,7 +273,7 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#solitaire">
                         <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -294,17 +285,16 @@
                   </div>
                 </div>
               
-
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#boutique">
                         <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
                         <h3>Boutique</h3>
-                        <p>Site boutique réalisé sous WAMP en PHP/HTML/CSS/MySQL (1ère année).</p>
+                        <p>Solitaire en version console sous Eclipse.</p>
                       </a>
                     </div>
                   </div>
@@ -313,7 +303,7 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#annuaire">
                         <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -337,7 +327,7 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#parking">
                         <img src="img/header.jpg" alt="Mountains" style="width:100%">
                           <div class="img__description_layer">
                             <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -347,12 +337,12 @@
                       </a>
                     </div>
                   </div>
-              </div>
+                </div>
 
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#siteM2L">
                         <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -376,7 +366,7 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#plomberie">
                         <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -391,13 +381,13 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
-                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
-                        <div class="img__description_layer">
-                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
-                        </div>
-                        <h3>Parsage de Jenkins</h3>
-                        <p>Parsage de l'HTMl de Jenkins pour créer un graphique Java (1ère année).</p>
+                      <a class="abc" type="button" data-toggle="modal" data-target="#parseur">
+                        <img src="img/header.jpg" alt="Mountains" style="width:100%">
+                          <div class="img__description_layer">
+                            <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                           </div>
+                          <h3>Parsage de jenkins</h3>
+                          <p>Parsage de données & traçage d'un graphique en Java.</p>
                       </a>
                     </div>
                   </div>
@@ -406,7 +396,7 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
+                      <a class="abc" type="button" data-toggle="modal" data-target="#utilj2ee">
                         <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
@@ -415,12 +405,12 @@
                         <p>Création d'une JSP en relation avec une classe utilitaire (1ère année).</p>
                       </a>
                     </div>
+                  </div>
                 </div>
-              </div>
 
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
           <div id="e" class="tabcontent">
             <div class="main">
@@ -474,9 +464,14 @@
 
               </div>
             </div>
-          </div>
-
-
+          </div>  
+                  <div class="pagination">
+                    <a class="pag" id="flg" href="#1" onclick="showPages('1')">&laquo;</a>
+                    <a class="pag" href="#1" id="focusMe" onclick="showPages('1')">1</a>
+                    <a class="pag" href="#2" id="bt2" onclick="showPages('2')">2</a>
+                    <a class="pag" id="fld" href="#2" onclick="showPages('2')">&raquo;</a>                 
+                  </div>
+            
       </div>
     </section>
 
@@ -552,143 +547,14 @@
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a style="color: #212529" href="mailto:your-email@your-domain.com">ugo.perniceni@hotmail.fr</a>
+              <a style="color: white" href="ugo.perniceni@hotmail.fr">ugo.perniceni@hotmail.fr</a>
             </p>
           </div>
         </div>
       </div>
     </section>
 
-  <!-- MODAL myModal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header" style="background-color: #006cf0!important">
-          <h4 class="modal-title text-white"><em>Curriculum Vitae</em></h4>
-          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body" style="max-height: 1000px;">
-          <img class="CV" src="doc/CV_ugo.PNG">
-        </div>
-        <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- MODAL Veille1 -->
-  <div class="modal fade" id="Veille1" role="dialog">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header" style="background-color: #006cf0!important">
-          <h4 class="modal-title text-white"><em>Veille technologique sur les processeurs</em></h4>
-          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body" style="max-height: 1000px;">
-          <div class="titre-modal"><i class="fa fa-bookmark"></i> Les processeurs</div><br />
-          <p class="description-modal">
-            <ul>
-              <li>
-                Pourquoi les processeurs ?<br /><br/>
-              </li>
-                <i class="fa fa-quote-left fa-pull-left"></i>
-                Ma veille technologique porte sur le thème des processeurs <br/>(ou unité centrale de traitement) car, élément clé d'un ordinateur ils sont représentés <br/>comme le coeur de l'ordinateur.<br/> En constantes évolutions, ils permettent d'exécuter des instructions leurs étant données par le système d’exploitation.<br/><br/>
-              <li>
-                Pour me tenir à jour des avancées technologiques de ce domaines j'utilise :<br/><br/>
-              </li>
-                NetVibes (site permettant de regrouper les flux RSS relatif à un centre d'interêt).
-                Vous pouvez retrouver une capture de mon NetVibes en cliquant sur le bouton suivant,<br/><br/>
-            </ul>
-          </p>
-          <hr><br />
-        </div>
-        <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- MODAL myModal -->
-  <div class="modal fade" id="compétences" role="dialog">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header" style="background-color: #006cf0!important">
-          <h4 class="modal-title text-white"><em>Compétences relatives au SLAM</em></h4>
-          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body" style="max-height: 1500px;max-width: 1200px;">
-        <p>
-          <ul>
-
-            <li>A1.1.1 – Analyse du cahier des charges d’un service à produire</li>
-            <li>A1.1.2 – Étude de l’impact de l’intégration d’un service sur le système informatique</li>
-            <li>A1.1.3 – Étude des exigences liées à la qualité attendue d’un service</li>
-            <li>A1.2.1 – Élaboration et présentation d’un dossier de choix de solution technique</li>
-            <li>A1.2.2 – Rédaction des spécifications techniques de la solution retenue</li>
-            <li>A1.2.3 – Évaluation des risques liés à l’utilisation d’un service</li>
-            <li>A1.2.4 – Détermination des tests nécessaires à la validation d’un service</li>
-            <li>A1.2.5 – Définition des niveaux d’habilitation associés à un service</li>
-            <li>A1.3.1 – Test d’intégration et d’acceptation d’un service</li>
-            <li>A1.3.2 – Définition des éléments nécessaires à la continuité d’un service</li>
-            <li>A1.3.3 – Accompagnement de la mise en place d’un nouveau service</li>
-            <li>A1.3.4 – Déploiement d’un service</li>
-            <li>A1.4.1 – Participation à un projet</li>
-            <li>A1.4.2 – Évaluation des indicateurs de suivi d’un projet et justification des écarts</li>
-            <li>A1.4.3 – Gestion des ressources</li><br />
-         
-            <li>A2.1.1 – Accompagnement des utilisateurs dans la prise en main d’un service</li>
-            <li>A2.1.2 – Évaluation et maintien de la qualité d’un service</li>
-            <li>A2.2.1 – Suivi et résolution d’incidents</li>
-            <li>A2.2.2 – Suivi et réponse à des demandes d’assistance</li>
-            <li>A2.2.3 – Réponse à une interruption de service</li>
-            <li>A2.3.1 – Identification, qualification et évaluation d’un problème</li>
-            <li>A2.3.2 – Proposition d’amélioration d’un service</li><br />
-
-            <li>A3.1.1 – Proposition d’une solution d’infrastructure</li>
-            <li>A3.1.2 – Maquettage et prototypage d’une solution d’infrastructure</li>
-            <li>A3.2.1 – Installation et configuration d’éléments d’infrastructure</li><br />
-
-            <li>A3.3.2 – Planification des sauvegardes et gestion des restaurations</li><br />
-         
-            <li>A4.1.1 – Proposition d’une solution applicative</li>
-            <li>A4.1.2 – Conception ou adaptation de l’interface utilisateur d’une solution applicative</li>
-            <li>A4.1.3 – Conception ou adaptation d’une base de données</li>
-            <li>A4.1.4 – Définition des caractéristiques d’une solution applicative</li>
-            <li>A4.1.5 – Prototypage de composants logiciels</li>
-            <li>A4.1.6 – Gestion d’environnements de développement et de test</li>
-            <li>A4.1.7 – Développement, utilisation ou adaptation de composants logiciels</li>
-            <li>A4.1.8 – Réalisation des tests nécessaires à la validation d’éléments adaptés ou développés</li>
-            <li>A4.1.9 – Rédaction d’une documentation technique</li>
-            <li>A4.1.10 – Rédaction d’une documentation d’utilisation</li>
-            <li>A4.2.1 – Analyse et correction d’un dysfonctionnement, d’un problème de qualité de service ou de sécurité</li>
-            <li>A4.2.2 – Adaptation d’une solution applicative aux évolutions de ses composants</li>
-            <li>A4.2.3 – Réalisation des tests nécessaires à la mise en production d’éléments mis à jour</li>
-            <li>A4.2.4 – Mise à jour d’une documentation technique</li>
-        ​ 
-            <li>A5.1.1 – Mise en place d’une gestion de configuration</li>
-            <li>A5.1.2 – Recueil d’informations sur une configuration et ses éléments</li>
-            <li>A5.1.3 – Suivi d’une configuration et de ses éléments</li>
-            <li>A5.1.4 – Étude de propositions de contrat de service (client, fournisseur)</li>
-            <li>A5.1.5 – Évaluation d’un élément de configuration ou d’une configuration</li>
-            <li>A5.1.6 – Évaluation d’un investissement informatique</li>
-            <li>A5.2.1 – Exploitation des référentiels, normes et standards adoptés par le prestataire</li>
-            <li>A5.2.2 – Veille technologique</li>
-            <li>A5.2.3 – Repérage des compléments de formation ou d’auto-formation utiles à l’acquisition de nouvelles compétences</li>
-            <li>A5.2.4 – Étude d’une technologie, d’un composant, d’un outil ou d’une méthode</li>
-
-          </ul>
-
-        </p>
-        </div>
-        <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
+    @include('extends.modals')
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

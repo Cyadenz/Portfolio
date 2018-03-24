@@ -5,7 +5,7 @@
 	<div class="titre"><i class="fa fa-bookmark"></i> Stage de 1ere année (2ieme projet)</div><br />
 	<p class="contexte">
 		<i class="fa fa-quote-left fa-pull-left"></i>
-		Lors de mon stage de première année j’ai été accueilli par l'ESi de Nanterre situé au : 167-177, avenue de Joliot Curie – 92013 Nanterre Cedex. Cette ESI est en charge d'applications telle que SATELIT ( Paiement de l'impôt par Internet ) et PASIFAE ( un des modules composant le prélèvement à la source des impôts qui devait rentrer en vigueur le 1er janvier 2018). Ces 2 applications étant en développement et maintenance.<br/><br />
+		Lors de mon stage de première année j’ai été accueilli par l'ESi de Nanterre<br/ >situé au : 167-177, avenue de Joliot Curie – 92013 Nanterre Cedex.<br />Cette ESI est en charge d'applications telle que SATELIT ( Paiement de l'impôt par Internet ) et PASIFAE ( un des modules composant le prélèvement à la source des impôts qui devait rentrer en vigueur le 1er janvier 2018). Ces 2 applications étant en développement et maintenance.<br/><br />
 
 		Dans mon second projet, je devais à partir de ICE parser un code HTML contenant des pages historiques et récupérer les releases d'un projet donné avec ses dates pour ensuite tracer un graphe.
 

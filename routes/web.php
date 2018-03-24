@@ -16,44 +16,15 @@ Route::get('/laravel', function () {
 });
 
 Route::get('/', function () {
-    return view('index');
+    return view('layouts.index');
 });
 
 Route::get('/mesProjets', function () {
     return view('MesProjets.index');
 });
 
-Route::get('/solitaire', function () {
-    return view('MesProjets.TP.solitaire');
+Route::get('/test', function () {
+    return view('test');
 });
-
-Route::get('/boutique', function () {
-    return view('MesProjets.TP.boutique');
-});
-
-Route::get('/annuaire', function () {
-    return view('MesProjets.TP.annuaire');
-});
-
-Route::get('/parking', function () {
-    return view('MesProjets.PPE.parking');
-});
-
-Route::get('/siteM2L', function () {
-    return view('MesProjets.PPE.m2l');
-});
-
-Route::get('/premiereAnnee', function () {
-    return view('MesProjets.Stage.1ereAnnee');
-});
-
-Route::get('/premiereAnneeP2', function () {
-    return view('MesProjets.Stage.1ereAnneeP2');
-});
-
-Route::get('/secondeAnnee', function () {
-    return view('MesProjets.Stage.2iemeAnnee');
-});
-
 
 
