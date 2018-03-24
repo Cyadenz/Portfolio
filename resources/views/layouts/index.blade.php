@@ -183,7 +183,7 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#parking">
-                        <img src="img/header.jpg" alt="Mountains" style="width:100%">
+                        <img src="img/Logo/Parking.png" alt="Site Parking" style="width:100%">
                           <div class="img__description_layer">
                             <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                            </div>
@@ -199,7 +199,7 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#solitaire">
-                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <img src="img/Logo/Solitaire.png" alt="Console solitaire" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
@@ -214,7 +214,7 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#plomberie">
-                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <img src="img/Logo/site_plomberie.png" alt="Site plomberie" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
@@ -232,12 +232,12 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#parseur">
-                        <img src="img/header.jpg" alt="Mountains" style="width:100%">
+                        <img src="img/Logo/Parseur.png" alt="Graphique java" style="width:100%">
                           <div class="img__description_layer">
                             <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                            </div>
                           <h3>Parsage de jenkins</h3>
-                          <p>Parsage de données & traçage d'un graphique en Java.</p>
+                          <p>Parsage de données & traçage d'un graphique en Java (1ère année).</p>
                       </a>
                     </div>
                   </div>
@@ -248,12 +248,12 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#boutique">
-                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <img src="img/Logo/Boutique.png" alt="Site boutique" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
                         <h3>Boutique</h3>
-                        <p>Solitaire en version console sous Eclipse.</p>
+                        <p>Site boutique connecté à une base de données (1ère année).</p>
                       </a>
                     </div>
                   </div>
@@ -274,7 +274,7 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#solitaire">
-                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <img src="img/Logo/Solitaire.png" alt="Console Solitaire" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
@@ -289,12 +289,12 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#boutique">
-                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <img src="img/Logo/Boutique.png" alt="Site boutique" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
                         <h3>Boutique</h3>
-                        <p>Solitaire en version console sous Eclipse.</p>
+                        <p>Site boutique connecté à une base de données (1ère année).</p>
                       </a>
                     </div>
                   </div>
@@ -304,12 +304,12 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#annuaire">
-                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <img src="img/Logo/annuaire.jpg" alt="Annuaire" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
                         <h3>Annuaire</h3>
-                        <p>Annuaire de contacts réalise sous Code::blocks (1ère année).</p>
+                        <p>Annuaire de contacts réalisé sous Code::blocks (1ère année).</p>
                       </a>
                     </div>
                   </div>
@@ -328,7 +328,7 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#parking">
-                        <img src="img/header.jpg" alt="Mountains" style="width:100%">
+                        <img src="img/Logo/Parking.png" alt="Site Parking" style="width:100%">
                           <div class="img__description_layer">
                             <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                            </div>
@@ -343,7 +343,7 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#siteM2L">
-                        <img src="img/font/indexSolitaire.png" alt="Solitaire" style="width:100%">
+                        <img src="img/Logo/M2L.png" alt="Site de la M2L" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
@@ -367,7 +367,7 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#plomberie">
-                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <img src="img/Logo/site_plomberie.png" alt="Site plomberie" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>
@@ -382,12 +382,12 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#parseur">
-                        <img src="img/header.jpg" alt="Mountains" style="width:100%">
+                        <img src="img/Logo/Parseur.png" alt="Parseur Java" style="width:100%">
                           <div class="img__description_layer">
                             <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                            </div>
                           <h3>Parsage de jenkins</h3>
-                          <p>Parsage de données & traçage d'un graphique en Java.</p>
+                          <p>Parsage de données & traçage d'un graphique en Java (1ère année).</p>
                       </a>
                     </div>
                   </div>
@@ -397,7 +397,7 @@
                   <div class="img__wrap">
                     <div class="content">
                       <a class="abc" type="button" data-toggle="modal" data-target="#utilj2ee">
-                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                        <img src="img/Logo/UtilJ2ee.png" alt="Utilitaire RUM" style="width:100%">
                         <div class="img__description_layer">
                           <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
                         </div>

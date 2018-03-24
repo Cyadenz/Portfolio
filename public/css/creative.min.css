@@ -46,14 +46,15 @@ hr.separation {
 }
 .button2
 {
-  background-color: #006cf0 !important;
+  background-color: #006cf0;
   color: white;
 }
 .button2:hover
 {
-  background-color:#C08443!important;
+  background-color: #555555;
   color: white;
   text-decoration: none;
+  outline: 0;
 }
 .button3
 {
@@ -146,7 +147,7 @@ hr.separation {
 }
 .liensV:hover {
   text-decoration-line: none;
-  color: #C08443!important;
+  color: #212529;
 }
 
 .rotate{
