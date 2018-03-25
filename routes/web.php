@@ -11,20 +11,6 @@
 |
 */
 
-Route::get('/laravel', function () {
-    return view('welcome');
-});
-
-Route::get('/', function () {
-    return view('layouts.index');
-});
-
-Route::get('/mesProjets', function () {
-    return view('MesProjets.index');
-});
-
-Route::get('/test', function () {
-    return view('test');
-});
+Route::get('/', 'SiteController@index')->name('Accueil');
 
 
