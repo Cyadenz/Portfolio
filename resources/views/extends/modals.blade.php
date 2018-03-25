@@ -23,22 +23,28 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header" style="background-color: #006cf0!important">
-          <h4 class="modal-title text-white"><em>Veille technologique sur les processeurs</em></h4>
+          <h4 class="modal-title text-white"><em>Veille technologique sur les cartes graphiques</em></h4>
           <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body" style="max-height: 1000px;">
-          <div class="titre-modal"><i class="fa fa-bookmark"></i> Les processeurs</div><br />
+          <div class="titre-modal"><i class="fa fa-bookmark"></i> Les cartes graphiques</div><br />
           <p class="description-modal">
             <ul>
               <li>
-                Pourquoi les processeurs ?<br /><br/>
+                Les cartes graphiques ?<br /><br/>
               </li>
                 <i class="fa fa-quote-left fa-pull-left"></i>
-                Ma veille technologique porte sur le thème des processeurs <br/>(ou unité centrale de traitement) car, élément clé d'un ordinateur ils sont représentés <br/>comme le coeur de l'ordinateur et donc sont très importants aux informaticiens.<br/> En constantes évolutions, ils permettent d'exécuter des instructions leurs étant données par le système d’exploitation.<br/><br/>
+                Les cartes graphiques ont pour rôles d'envoyer à l’écran des images stockées de leurs propres mémoires via une fréquence et une format définie par le port sur lequelles elles sont branchées et par l'écran.<br/><br/>
               <li>
-                Pour me tenir à jour des avancées technologiques de ce domaines j'utilise :<br/><br/>
+                Pourquoi cette veille ?<br /><br/>
               </li>
-                NetVibes (site permettant de regrouper les flux RSS relatif à un centre d'interêt) et Pearltrees (lien de mon Pearltrees juste en dessous).<br/><br/>
+              <i class="fa fa-quote-left fa-pull-left"></i>
+                Les cartes graphiques étant un élement clé de l'ordinateur (surtout pour les gamers) et en constante évolution elles représentaient pour moi un thème de recherche intéressant.<br/><br/>
+              <li>
+                Comment me tenir à jour des avancées dans ce domaine ?<br/><br/>
+              </li>
+              <i class="fa fa-quote-left fa-pull-left"></i>
+                Pour me tenir à jours des avancées de ce domaine j'utilise NetVibes (site permettant de regrouper les flux RSS relatif à un centre d'interêt) et Pearltrees (lien de mon Pearltrees juste en dessous).<br/><br/>
             </ul>
           </p>
           <hr><br />
@@ -49,6 +55,124 @@
       </div>
     </div>
   </div>
+
+  <!-- MODAL Veille2 -->
+  <div class="modal fade" id="Veille2" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #006cf0!important">
+          <h4 class="modal-title text-white"><em>Veille technologique sur les processeurs</em></h4>
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="max-height: 1000px;">
+          <div class="titre-modal"><i class="fa fa-bookmark"></i> Les processeurs</div><br />
+          <p class="description-modal">
+            <ul>
+              <li>
+                Les processeurs ?<br /><br/>
+              </li>
+                <i class="fa fa-quote-left fa-pull-left"></i>
+                Les processeurs (ou unité centrale de traitement) sont des élements clé d'un ordinateur, représentés comme le coeur de l'ordinateur ils permettent d'exécuter les instructions leurs étant données par le système d’exploitation et d'effectuer tout les calculs.<br/><br/>
+              <li>
+                Pourquoi cette veille ?<br /><br/>
+              </li>
+                <i class="fa fa-quote-left fa-pull-left"></i>
+                Les processeurs tout comme les cartes graphiques sont des élements clés de l'ordinateur, en constante évolution ils me semblaient être un thème intéressant couplés aux cartes graphiques.
+                <br/><br/>
+              <li>
+                Comment me tenir à jour des avancées dans ce domaine ?<br/><br/>
+              </li>
+              <i class="fa fa-quote-left fa-pull-left"></i>
+                Pour me tenir à jours des avancées de ce domaine j'utilise NetVibes (site permettant de regrouper les flux RSS relatif à un centre d'interêt) et Pearltrees (lien de mon Pearltrees juste en dessous).<br/><br/>
+            </ul>
+          </p>
+          <hr><br />
+        </div>
+        <div class="modal-footer" style="background-color: #006cf0!important">
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL Veille3 -->
+  <div class="modal fade" id="Veille3" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #006cf0!important">
+          <h4 class="modal-title text-white"><em>Veille technologique sur le framework Laravel</em></h4>
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="max-height: 1000px;">
+          <div class="titre-modal"><i class="fa fa-bookmark"></i> Laravel</div><br />
+          <p class="description-modal">
+            <ul>
+              <li>
+                Laravel ?<br /><br/>
+              </li>
+                <i class="fa fa-quote-left fa-pull-left"></i>
+                Laravel est un framework web open-source en PHP, respectant le schéma MVC(Model View Controller). Hébergé sur Github, framework possède une syntaxe simple et élégante permettant de coder avec plus de simplicité <br/><br/>
+              <li>
+                Pourquoi cette veille ?<br /><br/>
+              </li>
+                <i class="fa fa-quote-left fa-pull-left"></i>
+                Laravel est un framework que j'ai beaucoups utilisé récemment pour mes projets et qui m'intéresse beaucoup d'où mon choix pour ce framework en tant que veille technologique.
+                <br/><br/>
+              <li>
+                Comment me tenir à jour des avancées dans ce domaine ?<br/><br/>
+              </li>
+              <i class="fa fa-quote-left fa-pull-left"></i>
+                Pour me tenir à jours des avancées de ce domaine j'utilise NetVibes (site permettant de regrouper les flux RSS relatif à un centre d'interêt) et Pearltrees (lien de mon Pearltrees juste en dessous).<br/><br/>
+            </ul>
+          </p>
+          <hr><br />
+        </div>
+        <div class="modal-footer" style="background-color: #006cf0!important">
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- MODAL Veille4 -->
+  <div class="modal fade" id="Veille4" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #006cf0!important">
+          <h4 class="modal-title text-white"><em>Veille technologique sur le langage Java</em></h4>
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="max-height: 1000px;">
+          <div class="titre-modal"><i class="fa fa-bookmark"></i> Java</div><br />
+          <p class="description-modal">
+            <ul>
+              <li>
+                Java ?<br /><br/>
+              </li>
+                <i class="fa fa-quote-left fa-pull-left"></i>
+                Le langage Java est un langage de programmation orienté objet permettant de produire des logiciels indépendants de toute architecture matérielle.<br/><br/>
+              <li>
+                Pourquoi cette veille ?<br /><br/>
+              </li>
+                <i class="fa fa-quote-left fa-pull-left"></i>
+                Le langage Java est un langage que j'ai utilisé à l'occasion de plusieurs Travaux Pratiques/Stage et que je trouve très intéressant.
+                <br/><br/>
+              <li>
+                Comment me tenir à jour des avancées dans ce domaine ?<br/><br/>
+              </li>
+              <i class="fa fa-quote-left fa-pull-left"></i>
+                Pour me tenir à jours des avancées de ce domaine j'utilise NetVibes (site permettant de regrouper les flux RSS relatif à un centre d'interêt) et Pearltrees (lien de mon Pearltrees juste en dessous).<br/><br/>
+            </ul>
+          </p>
+          <hr><br />
+        </div>
+        <div class="modal-footer" style="background-color: #006cf0!important">
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- MODAL compétences -->
   <div class="modal fade" id="compétences" role="dialog">

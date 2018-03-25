@@ -73,7 +73,6 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger sr-button" href="#about">En savoir plus<br/ ></a>
           </div>
         </div>
@@ -157,7 +156,7 @@
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <p>
-              <a class="button button2 pull-right sr-button" href="/doc/CV.pdf" download=""><i class="fa fa-download"></i> Télécharger mon tableau</a>
+              <a class="button button2 pull-right sr-button" href="/doc/TabComp.pdf" download=""><i class="fa fa-download"></i> Télécharger mon tableau</a>
             </p>
           </div>
         </div>
@@ -259,10 +258,15 @@
                   </div>
                 </div>
               </div>
+              <div class="pagination">
+
+                <a class="pag" href="#1" id="focusMe" onclick="showPages('1')">1</a>
+                <a class="pag" href="#2" id="bt2" onclick="showPages('2')">2</a>
+               
+              </div>
 
             </div>
-
-            </div>
+          </div>
 
 
           <div id="b" class="tabcontent">
@@ -420,10 +424,10 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
-                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                      <a class="abc" href="/doc/Compta/Facture.xlsx" download="">
+                        <img src="img/Logo/excel.jpg" alt="Logo excel" style="width:100%">
                         <div class="img__description_layer">
-                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                          <p class="img__description"><i class="fa fa-download fa-4x"></i><br/>Télécharger</p>
                         </div>
                         <h3>Facture</h3>
                         <p>Réalisation d'un tableur excel pour le calcul d'une facture.</p>
@@ -435,10 +439,10 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
-                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                      <a class="abc" href="/doc/Compta/Amortissement.xlsx" download="">
+                        <img src="img/Logo/excel.jpg" alt="Logo excel" style="width:100%">
                         <div class="img__description_layer">
-                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                          <p class="img__description"><i class="fa fa-download fa-4x"></i></i><br/>Télécharger</p>
                         </div>
                         <h3>Amortissement</h3>
                         <p>Réalisation d'un tableur excel pour le calcul d'un amortissement.</p>
@@ -450,28 +454,20 @@
                 <div class="column">
                   <div class="img__wrap">
                     <div class="content">
-                      <a class="abc" href="/">
-                        <img src="img/font/indexPlomberie.png" alt="Mountains" style="width:100%">
+                      <a class="abc" href="/doc/Compta/Emprunt.xlsx" download="">
+                        <img src="img/Logo/excel.jpg" alt="Logo excel" style="width:100%">
                         <div class="img__description_layer">
-                          <p class="img__description"><i class="fa fa-search-plus fa-4x"></i><br/>En savoir plus</p>
+                          <p class="img__description"><i class="fa fa-download fa-4x"></i><br/>Télécharger</p>
                         </div>
                         <h3>Emprunt</h3>
-                        <p>Réalisation d'un tableur excel pour le cas TELINOS.</p>
+                        <p>Réalisation d'un tableur excel pour le cas TELINOS(Emprunt).</p>
                       </a>
                     </div>
                 </div>
               </div>
-
               </div>
             </div>
-          </div>  
-                  <div class="pagination">
-                    <a class="pag" id="flg" href="#1" onclick="showPages('1')">&laquo;</a>
-                    <a class="pag" href="#1" id="focusMe" onclick="showPages('1')">1</a>
-                    <a class="pag" href="#2" id="bt2" onclick="showPages('2')">2</a>
-                    <a class="pag" id="fld" href="#2" onclick="showPages('2')">&raquo;</a>                 
-                  </div>
-            
+          </div>          
       </div>
     </section>
 
@@ -492,30 +488,30 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <a class="liensV service-box mt-5 mx-auto" data-toggle="modal" href="#Veille1">
+              <i class="fa fa-4x fa-laptop mb-3 sr-icons"></i>
+              <h3 class="mb-3">Cartes graphiques</h3>
+              <p class="text-muted mb-0">Consulter ma veille technologique sur les cartes graphiques.</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <a class="liensV service-box mt-5 mx-auto" data-toggle="modal" href="#Veille2">
               <i class="fa fa-4x fa-heartbeat mb-3 sr-icons"></i>
-              <h3 class="mb-3">Processeur</h3>
+              <h3 class="mb-3">Processeurs</h3>
               <p class="text-muted mb-0">Consulter ma veille technologique sur les processeurs.</p>
             </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <a class="liensV service-box mt-5 mx-auto"  href="/">
-              <i class="fa fa-4x fa-paper-plane mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <a class="liensV service-box mt-5 mx-auto"  href="/">
+            <a class="liensV service-box mt-5 mx-auto" data-toggle="modal" href="#Veille3">
               <i class="fa fa-4x fa-newspaper-o mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+              <h3 class="mb-3">Laravel</h3>
+              <p class="text-muted mb-0">Consulter ma veille technologique sur le framework Laravel.</p>
             </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
-            <a class="liensV service-box mt-5 mx-auto"  href="/">
-              <i class="fa fa-4x fa-heart mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+            <a class="liensV service-box mt-5 mx-auto" data-toggle="modal" href="#Veille4">
+              <i class="fa fa-4x fa-cube  mb-3 sr-icons"></i>
+              <h3 class="mb-3">Java</h3>
+              <p class="text-muted mb-0">Consulter ma veille technologique sur la langage Java.</p>
             </a>
           </div>
         </div><br/>
@@ -523,7 +519,8 @@
 
 <hr class="separation"><br/>
 
- <center><p>Liens de mes recherches en rapport avec ma veille technologique</p><iframe src="//www.pearltrees.com/ugop?embed=2&d=201803181548" width="853" height="404" style="border:1px;" allowtransparency="true"></iframe><span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="http://www.pearltrees.com/ugop" style=" color:#818181; font-size:13px;" target="_blank">Ugop</a></span></center>
+ <center><p>Liens de mes recherches en rapport avec ma veille technologique (incomplet)</p>
+  <iframe src="//www.pearltrees.com/ugop?embed=2&d=201803181548" width="853" height="404" style="border:1px;" allowtransparency="true"></iframe><span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="http://www.pearltrees.com/ugop" style=" color:#818181; font-size:13px;" target="_blank">Ugop</a></span></center>
 
 
       </div>
@@ -539,15 +536,15 @@
             <p class="mb-5">N'hésitez pas à me contacter, je répondrais au plus vite !</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row text-white">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p style="color: #212529">/</p>
+            <p>Non renseigné pour le moment.</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a style="color: white" href="ugo.perniceni@hotmail.fr">ugo.perniceni@hotmail.fr</a>
+              <a>ugo.perniceni@hotmail.fr</a>
             </p>
           </div>
         </div>
