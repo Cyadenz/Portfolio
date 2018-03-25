@@ -1,6 +1,4 @@
-
-
- <!-- MODAL Cv -->
+<!-- MODAL Cv -->
   <div class="modal fade" id="Cv" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -12,7 +10,7 @@
           <img class="CV" src="doc/CV_ugo.PNG">
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -50,7 +48,7 @@
           <hr><br />
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -89,7 +87,7 @@
           <hr><br />
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -128,7 +126,7 @@
           <hr><br />
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -167,7 +165,7 @@
           <hr><br />
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -245,7 +243,7 @@
         </p>
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -274,15 +272,21 @@
             <hr>
             <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
             <div class="slide">
-              <img src="img/header.jpg" />
-              <img src="img/team/1.jpg" />
+              <img src="img/Logo/Solitaire2.png" />
+              <img src="img/Solitaire/1.PNG" />
+              <img src="img/Solitaire/2.PNG" />
+              <img src="img/Solitaire/3.PNG" />
+              <img src="img/Solitaire/4.PNG" />
+              <img src="img/Solitaire/pile.PNG" />
+              <img src="img/Solitaire/interdit.PNG" />
+              <img src="img/Solitaire/erreursaisie.PNG" />
             </div>
           </p>
           <br /><br />
 
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -311,15 +315,25 @@
             <hr>
             <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
             <div class="slide">
-              <img src="img/header.jpg" />
-              <img src="img/team/1.jpg" />
+              <img src="img/Logo/Parking.png" />
+              <img src="img/Parking/Inscription.png" />
+              <img src="img/Parking/connexion.png" />
+              <img src="img/Parking/co2.png" />
+              <img src="img/Parking/reserve.png" />
+              <img src="img/Parking/profil.png" />
+              <img src="img/Parking/infosPerso.png" />
+              <img src="img/Parking/admin.png" />
+              <img src="img/Parking/gestionUser.png" />
+              <img src="img/Parking/ModifUser.png" />
+              <img src="img/Parking/gestionplace.png" />
+              <img src="img/Parking/ValidationReserv.png" />
             </div>
           </p>
           <br /><br />
 
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -348,15 +362,22 @@
             <hr>
             <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
             <div class="slide">
-              <img src="img/header.jpg" />
-              <img src="img/team/1.jpg" />
+              <img src="img/Logo/site_plomberie.png" />
+              <img src="img/site_plomberie/accueil.png" />
+              <img src="img/site_plomberie/apropos.png" />
+              <img src="img/site_plomberie/Service.png" />
+              <img src="img/site_plomberie/devis.png" />
+              <img src="img/site_plomberie/contact.png" />
+              <img src="img/site_plomberie/senregistrer.png" />
+              <img src="img/site_plomberie/InterfaceAdmin.png" />
+              <img src="img/site_plomberie/suppression.png" />              
             </div>
           </p>
           <br /><br />
 
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -388,15 +409,18 @@
             <hr>
             <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
             <div class="slide">
-              <img src="img/header.jpg" />
-              <img src="img/team/1.jpg" />
+              <img src="img/Parseur/Test1.png" />
+              <img src="img/Parseur/Test1Suite.png" />
+              <img src="img/Parseur/Test1Suite2.png" />
+              <img src="img/Parseur/Test1BDD.png" />
+              <img src="img/Parseur/Test2.png" />
             </div>
           </p>
           <br /><br />
 
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -427,15 +451,17 @@
             <hr>
             <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
             <div class="slide">
-              <img src="img/header.jpg" />
-              <img src="img/team/1.jpg" />
+              <img src="img/Boutique/accueil.PNG" />
+              <img src="img/Boutique/connection.PNG" />
+              <img src="img/Boutique/contact.PNG" />
+              <img src="img/Boutique/panier.PNG" />
             </div>
           </p>
           <br /><br />
 
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -465,17 +491,13 @@
               </li>
             </ul> 
             <hr>
-            <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
-            <div class="slide">
-              <img src="img/header.jpg" />
-              <img src="img/team/1.jpg" />
-            </div>
+            <h5><em><center>Aucunes captures d'écran pour ce projet.</center></em></h5>
           </p>
           <br /><br />
 
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -506,15 +528,15 @@
             <hr>
             <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
             <div class="slide">
-              <img src="img/header.jpg" />
-              <img src="img/team/1.jpg" />
+              <img src="img/SiteM2L/M2L.png" />
+              <img src="img/SiteM2L/MaisonLigues.PNG" />
             </div>
           </p>
           <br /><br />
 
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
@@ -544,15 +566,16 @@
             <hr>
             <h5><center><i class="fa fa-file-image-o"></i> Captures d'écran</center></h5>
             <div class="slide">
-              <img src="img/header.jpg" />
-              <img src="img/team/1.jpg" />
+              <img src="img/utilJ2ee/PageAccueil.PNG" />
+              <img src="img/utilJ2ee/RésultatTestSPIvalide.PNG" />
+              <img src="img/utilJ2ee/ResultatTest2Erreur.png" />
             </div>
           </p>
           <br /><br />
 
         </div>
         <div class="modal-footer" style="background-color: #006cf0!important">
-          <button type="button" class="btn buttonModal" data-dismiss="modal">Close</button>
+          <button type="button" class="btn buttonModal" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
